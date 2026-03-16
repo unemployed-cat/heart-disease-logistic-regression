@@ -55,10 +55,30 @@ The baseline logistic regression model achieved approximately **50% accuracy** a
 
 After addressing class imbalance:
 
-- Recall for the most severe class improved from **0.00 to 0.80**
+- Recall for the most severe class improved from **0.00 to 0.40**
 - The model became less biased toward predicting only majority classes
 - Detection of higher-risk patients improved
 
 Although the model still struggles with the most severe cases due to limited data, performance improved compared to the initial baseline.
 
+## Repository Structure
+The notebook includes:
+- Data preprocessing
+- Logistic regression training
+- Model evaluation
+- Visualization of results
+
+## Author Contribution
+This repository contains the **logistic regression portion** of a larger group project on heart disease prediction.
+
+My contribution focused on:
+- Logistic regression model implementation
+- Feature selection and preprocessing
+- Addressing class imbalance using upsampling
+- Model evaluation and interpretation
+
+## Reference
+Abdullah, S. M. (2024).  
+Heart Disease Dataset | Cleaned. Kaggle  
+https://www.kaggle.com/datasets/abdmental01/heart-disease-dataset
 
